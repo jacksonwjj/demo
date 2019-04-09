@@ -6,7 +6,7 @@ S:pass.tmall.com
 S:pass.etao.com
 S:mdskip.taobao.com
 
-||47.107.83.26/ddk/$f@302:s@47\.107\.83\.26\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=3@
+||47.107.83.26/ddk/$f@302:s@47\.107\.83\.26\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8559887_59628935&cpsSign=CC8559887_59628935_0ebb8c582403ac65f93f437e2346a964&duoduo_type=2@
 ||47.107.83.26/tbk/$f@302:s@47\.107\.83\.26\/.*singlePromotion\?goodsId=(.*)&*@uland.taobao.com/coupon/edetail?&pid=mm_14507504_3405477_35092123&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
 
 ||new.qixiaoke.com$f@302:s@new\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=3@
@@ -36,7 +36,7 @@ S:mdskip.taobao.com
 ||9u99.com/first.php?pid=$S@isconvert.*href.*\?id=@href="https://uland.taobao.com/coupon/edetail?&pid=mm_14507504_3405477_35092123&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=@
 ||9u99.com/first.php?pid=$s@<div style="margin:100px auto 0; width:430px;">@<div style="margin:100px auto 0; width:430px;"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
 
-!!下面是阿呆猫生效标示 淘宝天猫产品页面显示   拼多多在下单确认地址页面显示  a dai mao sheng xiao zhong 
+!!涓嬮潰鏄樋鍛嗙尗鐢熸晥鏍囩ず 娣樺疂澶╃尗浜у搧椤甸潰鏄剧ず   鎷煎澶氬湪涓嬪崟纭鍦板潃椤甸潰鏄剧ず  a dai mao sheng xiao zhong 
 ||mobile.yangkeduo.com/order_checkout.html$s@<body id="order_checkout">@<body id="order_checkout"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
 ||item.taobao.com/item.htm$s@<div class="tb-wrap tb-wrap-newshop">@<div class="tb-wrap tb-wrap-newshop"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
 ||detail.tmall.com/item.htm$s@<div class="tb-detail-hd">@<div class="tb-detail-hd"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
