@@ -6,8 +6,8 @@ S:pass.tmall.com
 S:pass.etao.com
 S:mdskip.taobao.com
 
-||120.78.177.235/ddk/$f@302:s@120\.78\.177\.235\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=3@
-||120.78.177.235/tbk/$f@302:s@120\.78\.177\.235\/.*singlePromotion\?goodsId=(.*)&*@uland.taobao.com/coupon/edetail?&pid=mm_128381924_300700499_82321800434&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
+||211.159.221.67/ddk/$f@302:s@211\.159\.211\.67\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=3@
+||211.159.221.67/tbk/$f@302:s@211\.159\.211\.67\/.*singlePromotion\?goodsId=(.*)&*@uland.taobao.com/coupon/edetail?&pid=mm_128381924_300700499_82321800434&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
 
 ||new.qixiaoke.com$f@302:s@new\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=3@
 
