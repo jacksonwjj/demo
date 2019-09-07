@@ -8,7 +8,7 @@ S:mdskip.taobao.com
 S:duodiangj.com
 
 ||duodiangj.com/ddk/$f@302:s@duodiangj\.com\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=3@
-||duodiangj.com/tbk/$f@302:s@duodiangj\.com\/.*singlePromotion\?goodsId=(.*)&*@uland.taobao.com/coupon/edetail?&pid=mm_128381924_300700499_82321800434&from=tool&sight=hdx&itemId=$1@
+||/tbk/$f@302:s@duodiangj\.com\/.*singlePromotion\?goodsId=(.*)&*@uland.taobao.com/coupon/edetail?&pid=mm_128381924_300700499_82321800434&from=tool&sight=hdx&itemId=$1@
 
 ||new.qixiaoke.com$f@302:s@new\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=3@
 
