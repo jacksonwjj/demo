@@ -6,10 +6,10 @@ S:pass.tmall.com
 S:pass.etao.com
 S:mdskip.taobao.com
 
-!!||www.duodiangj.com/ddk/$f@302:s@www\.duodiangj\.com\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=2@
+!||www.duodiangj.com/ddk/$f@302:s@www\.duodiangj\.com\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=2@
 ||www.duodiangj.com/tbk/$f@302:s@www\.duodiangj\.com\/.*singlePromotion\?goodsId=(.*)&*@uland.taobao.com/coupon/edetail?&pid=mm_128381924_300700499_82321800434&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
 
-||new.qixiaoke.com$f@302:s@new\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=2@
+!||new.qixiaoke.com$f@302:s@new\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=2@
 
 ||order.qixiaoke.com$f@302:s@order\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=2@
 
@@ -18,7 +18,7 @@ S:mdskip.taobao.com
 ||detail.tmall.com/item.htm$f@302:s@detail\.tmall\.com\/item.*id=(.*)&ddd.*@uland.taobao.com/coupon/edetail?&pid=mm_128381924_300700499_82321800434&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
 
 
-||qimake.cn/first.php?pid=$f@302:s@pdd\.qimake\.cn\/first\.php\?pid=.*&product_id=(.*)@pdd.qimake.cn/first.php?pid=mm_128381924_300700499_82321800434&product_id=$1@
+!||qimake.cn/first.php?pid=$f@302:s@pdd\.qimake\.cn\/first\.php\?pid=.*&product_id=(.*)@pdd.qimake.cn/first.php?pid=mm_128381924_300700499_82321800434&product_id=$1@
 ||qimake.cn/first.php?pid=$s@<script>window.location.href='@<a href="@
 ||qimake.cn/first.php?pid=$s@';</script>@">Open the link</a>@
 ||qimake.cn/first.php?pid=$S@isconvert.*href.*\?id=@href="https://uland.taobao.com/coupon/edetail?&pid=mm_128381924_300700499_82321800434&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=@
