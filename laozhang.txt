@@ -22,7 +22,7 @@ S:mdskip.taobao.com
 ||qimake.cn/first.php?pid=$s@<script>window.location.href='@<a href="@
 ||qimake.cn/first.php?pid=$s@';</script>@">Open the link</a>@
 ||qimake.cn/first.php?pid=$S@isconvert.*href.*\?id=@href="https://uland.taobao.com/coupon/edetail?&pid=mm_506410016_775250243_109329500021&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=@
-||qimake.cn/first.php?pid=$s@<div style="margin:100px auto 0; width:430px;">@<div style="margin:100px auto 0; width:430px;"><span style="color:#FFFFFF; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
+||qimake.cn/first.php?pid=$s@<div style="margin:100px auto 0; width:430px;">@<div style="margin:100px auto 0; width:430px;"><span style="color:#FFFFFF; font-weight:bold;font-size:20px;"></span>@
 
 ||kanwailian.com/first.php?pid=$f@302:s@pdd\.kanwailian\.com\/first\.php\?pid\=.*&product_id=(.*)@pdd.kanwailian.com/first.php?pid=mm_506410016_775250243_109329500021&product_id=$1@
 ||kanwailian.com/first.php?pid=$s@<script>window.location.href='@<a href="@
