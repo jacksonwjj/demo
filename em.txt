@@ -6,12 +6,12 @@ S:pass.tmall.com
 S:pass.etao.com
 S:mdskip.taobao.com
 
-||119.23.21.14:8899/tbk/$f@302:s@119\.23\.21\.14\:8899\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC_191202_8268757_48783603_40889a5819bd38e55fa0a5fcaacfd7f5&duoduo_type=2@
+||119.23.21.14:8899/tbk/$f@302:s@119\.23\.21\.14\:8899\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8167208_43186884_787f30770672e11bd6c13a2ce26b88ea&duoduo_type=2@
 ||119.23.21.14:8899/tbk/$f@302:s@119\.23\.21\.14\:8899\/.*singlePromotion\?goodsId=(.*)&*@uland.taobao.com/coupon/edetail?&pid=mm_128381924_300700499_82321800434&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
 
-||new.qixiaoke.com$f@302:s@new\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC_191202_8268757_48783603_40889a5819bd38e55fa0a5fcaacfd7f5&duoduo_type=2@
+||new.qixiaoke.com$f@302:s@new\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8167208_43186884_787f30770672e11bd6c13a2ce26b88ea&duoduo_type=2@
 
-||order.qixiaoke.com$f@302:s@order\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC_191202_8268757_48783603_40889a5819bd38e55fa0a5fcaacfd7f5&duoduo_type=2@
+||order.qixiaoke.com$f@302:s@order\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8167208_43186884_787f30770672e11bd6c13a2ce26b88ea&duoduo_type=2@
 
 
 ||item.taobao.com/item.htm$f@302:s@item\.taobao\.com\/item.*id=(.*)&ddd.*@uland.taobao.com/coupon/edetail?&pid=mm_128381924_300700499_82321800434&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
