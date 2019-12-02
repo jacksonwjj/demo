@@ -6,12 +6,18 @@ S:pass.tmall.com
 S:pass.etao.com
 S:mdskip.taobao.com
 
-||119.23.21.14:8899/tbk/$f@302:s@119\.23\.21\.14\:8899\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=2@
+||119.23.21.14:8899/tbk/$f@302:s@119\.23\.21\.14\:8899\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC_191202_8268757_48783603_f96217773c2d26a203a8f6f5ede34f1b&duoduo_type=2@
 ||119.23.21.14:8899/tbk/$f@302:s@119\.23\.21\.14\:8899\/.*singlePromotion\?goodsId=(.*)&*@uland.taobao.com/coupon/edetail?&pid=mm_506410016_775250243_109329500021&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
 
-||new.qixiaoke.com$f@302:s@new\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=2@
+||www.duodiangj.com/ddk/$f@302:s@www\.duodiangj\.com\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC_191202_8268757_48783603_f96217773c2d26a203a8f6f5ede34f1b&duoduo_type=2@
+||www.duodiangj.com/ddk/$f@302:s@www\.duodiangj\.com\/.*singlePromotion\?goodsId=(.*)&*@uland.taobao.com/coupon/edetail?&pid=mm_506410016_775250243_109329500021&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
 
-||order.qixiaoke.com$f@302:s@order\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=2@
+||www.ppxias.com/ddk/$f@302:s@www\.ppxias\.com\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC_191202_8268757_48783603_f96217773c2d26a203a8f6f5ede34f1b&duoduo_type=2@
+||www.ppxias.com/ddk/$f@302:s@www\.ppxias\.com\/.*singlePromotion\?goodsId=(.*)&*@uland.taobao.com/coupon/edetail?&pid=mm_506410016_775250243_109329500021&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
+
+||new.qixiaoke.com$f@302:s@new\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC_191202_8268757_48783603_f96217773c2d26a203a8f6f5ede34f1b&duoduo_type=2@
+
+||order.qixiaoke.com$f@302:s@order\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC_191202_8268757_48783603_f96217773c2d26a203a8f6f5ede34f1b&duoduo_type=2@
 
 
 ||item.taobao.com/item.htm$f@302:s@item\.taobao\.com\/item.*id=(.*)&ddd.*@uland.taobao.com/coupon/edetail?&pid=mm_506410016_775250243_109329500021&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
