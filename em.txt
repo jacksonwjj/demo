@@ -6,34 +6,34 @@ S:pass.tmall.com
 S:pass.etao.com
 S:mdskip.taobao.com
 
-||www.duodiangj.com/ddk/$f@302:s@www\.duodiangj\.com\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=3@
-||www.duodiangj.com/tbk/$f@302:s@www\.duodiangj\.com\/.*singlePromotion\?goodsId=(.*)&*@uland.taobao.com/coupon/edetail?&pid=mm_128381924_300700499_82321800434&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
+||119.23.21.14:8899/tbk/$f@302:s@119\.23\.21\.14\:8899\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8167208_43186884&cpsSign=CC8167208_43186884_787f30770672e11bd6c13a2ce26b88ea&duoduo_type=2@
+||119.23.21.14:8899/tbk/$f@302:s@119\.23\.21\.14\:8899\/.*singlePromotion\?goodsId=(.*)&*@uland.taobao.com/coupon/edetail?&pid=mm_14507504_3405477_35092123&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
 
-||new.qixiaoke.com$f@302:s@new\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=3@
+||new.qixiaoke.com$f@302:s@new\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8167208_43186884&cpsSign=CC8167208_43186884_787f30770672e11bd6c13a2ce26b88ea&duoduo_type=2@
 
-||order.qixiaoke.com$f@302:s@order\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_48783603&cpsSign=CC8268757_48783603_97865f639dc7e922729561a87f612cc4&duoduo_type=3@
-
-
-||item.taobao.com/item.htm$f@302:s@item\.taobao\.com\/item.*id=(.*)&ddd.*@uland.taobao.com/coupon/edetail?&pid=mm_128381924_300700499_82321800434&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
-||detail.tmall.com/item.htm$f@302:s@detail\.tmall\.com\/item.*id=(.*)&ddd.*@uland.taobao.com/coupon/edetail?&pid=mm_128381924_300700499_82321800434&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
+||order.qixiaoke.com$f@302:s@order\.qixiaoke\.com\/\?obj\=upshopid\/pinduoduo_click.*&id=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8167208_43186884&cpsSign=CC8167208_43186884_787f30770672e11bd6c13a2ce26b88ea&duoduo_type=2@
 
 
-||qimake.cn/first.php?pid=$f@302:s@pdd\.qimake\.cn\/first\.php\?pid=.*&product_id=(.*)@pdd.qimake.cn/first.php?pid=mm_128381924_300700499_82321800434&product_id=$1@
+||item.taobao.com/item.htm$f@302:s@item\.taobao\.com\/item.*id=(.*)&ddd.*@uland.taobao.com/coupon/edetail?&pid=mm_14507504_3405477_35092123&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
+||detail.tmall.com/item.htm$f@302:s@detail\.tmall\.com\/item.*id=(.*)&ddd.*@uland.taobao.com/coupon/edetail?&pid=mm_14507504_3405477_35092123&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
+
+
+||qimake.cn/first.php?pid=$f@302:s@pdd\.qimake\.cn\/first\.php\?pid=.*&product_id=(.*)@pdd.qimake.cn/first.php?pid=mm_14507504_3405477_35092123&product_id=$1@
 ||qimake.cn/first.php?pid=$s@<script>window.location.href='@<a href="@
 ||qimake.cn/first.php?pid=$s@';</script>@">Open the link</a>@
-||qimake.cn/first.php?pid=$S@isconvert.*href.*\?id=@href="https://uland.taobao.com/coupon/edetail?&pid=mm_128381924_300700499_82321800434&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=@
+||qimake.cn/first.php?pid=$S@isconvert.*href.*\?id=@href="https://uland.taobao.com/coupon/edetail?&pid=mm_14507504_3405477_35092123&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=@
 ||qimake.cn/first.php?pid=$s@<div style="margin:100px auto 0; width:430px;">@<div style="margin:100px auto 0; width:430px;"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
 
-||kanwailian.com/first.php?pid=$f@302:s@pdd\.kanwailian\.com\/first\.php\?pid\=.*&product_id=(.*)@pdd.kanwailian.com/first.php?pid=mm_128381924_300700499_82321800434&product_id=$1@
+||kanwailian.com/first.php?pid=$f@302:s@pdd\.kanwailian\.com\/first\.php\?pid\=.*&product_id=(.*)@pdd.kanwailian.com/first.php?pid=mm_14507504_3405477_35092123&product_id=$1@
 ||kanwailian.com/first.php?pid=$s@<script>window.location.href='@<a href="@
 ||kanwailian.com/first.php?pid=$s@';</script>@">Open the link</a>@
-||kanwailian.com/first.php?pid=$S@isconvert.*href.*\?id=@href="https://uland.taobao.com/coupon/edetail?&pid=mm_128381924_300700499_82321800434&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=@
+||kanwailian.com/first.php?pid=$S@isconvert.*href.*\?id=@href="https://uland.taobao.com/coupon/edetail?&pid=mm_14507504_3405477_35092123&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=@
 ||kanwailian.com/first.php?pid=$s@<div style="margin:100px auto 0; width:430px;">@<div style="margin:100px auto 0; width:430px;"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
 
-||9u99.com/first.php?pid=$f@302:s@pdd\.9u99\.com\/first\.php\?pid\=.*&product_id=(.*)@pdd.9u99.com/first.php?pid=mm_128381924_300700499_82321800434&product_id=$1@
+||9u99.com/first.php?pid=$f@302:s@pdd\.9u99\.com\/first\.php\?pid\=.*&product_id=(.*)@pdd.9u99.com/first.php?pid=mm_14507504_3405477_35092123&product_id=$1@
 ||9u99.com/first.php?pid=$s@<script>window.location.href='@<a href="@
 ||9u99.com/first.php?pid=$s@';</script>@">Open the link</a>@
-||9u99.com/first.php?pid=$S@isconvert.*href.*\?id=@href="https://uland.taobao.com/coupon/edetail?&pid=mm_128381924_300700499_82321800434&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=@
+||9u99.com/first.php?pid=$S@isconvert.*href.*\?id=@href="https://uland.taobao.com/coupon/edetail?&pid=mm_14507504_3405477_35092123&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=@
 ||9u99.com/first.php?pid=$s@<div style="margin:100px auto 0; width:430px;">@<div style="margin:100px auto 0; width:430px;"><span style="color:#FF0500; font-weight:bold;font-size:20px;">a dai mao sheng xiao zhong </span>@
 
 !!下面是阿呆猫生效标示 淘宝天猫产品页面显示   拼多多在下单确认地址页面显示  a dai mao sheng xiao zhong 
