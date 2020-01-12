@@ -6,7 +6,7 @@ S:pass.tmall.com
 S:pass.etao.com
 S:mdskip.taobao.com
 
-||119.23.21.14:8899/ddk/$f@302:s@119\.23\.21\.14\:8899\/.*singlePromotion\?muid=198182\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_125605867&cpsSign=CDE_200102_8268757_125605867_17cea8016ba934e2e08faa0994dd0b3f&duoduo_type=2@
+||119.23.21.14:8899/ddk/$f@302:s@119\.23\.21\.14\:8899\/.*singlePromotionV1/?muid=198182&goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_125605867&cpsSign=CDE_200102_8268757_125605867_17cea8016ba934e2e08faa0994dd0b3f&duoduo_type=2@
 ||119.23.21.14:8899/tbk/$f@302:s@119\.23\.21\.14\:8899\/.*singlePromotion\?goodsId=(.*)&*@uland.taobao.com/coupon/edetail?&pid=mm_619850045_1215200465_109918350261&traceId=0b0837c215404724846102322e&union_lens=lensId:0b832c69_0c76_166ab50b314_ca1f&from=tool&sight=hdx&itemId=$1@
 
 ||www.duodiangj.com/ddk/$f@302:s@www\.duodiangj\.com\/.*singlePromotion\?goodsId=(.*)@mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=$1&pid=8268757_125605867&cpsSign=CDE_200102_8268757_125605867_17cea8016ba934e2e08faa0994dd0b3f&duoduo_type=2@
